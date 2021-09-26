@@ -9,6 +9,9 @@
     <Border BorderBrush="Gray" Margin="10" BorderThickness="1">
         <StackPanel>
             <CheckBox x:Name="UseLocationAsWorkingDir" Content="{DynamicResource wox_plugin_everything_use_location_as_working_dir}" Margin="10" HorizontalAlignment="Left" />
+            <CheckBox x:Name="SearchMatchCase" Content="{DynamicResource wox_plugin_everything_search_match_case}" Margin="10" HorizontalAlignment="Left" />
+            <CheckBox x:Name="SearchWholeWord" Content="{DynamicResource wox_plugin_everything_search_whole_word}" Margin="10" HorizontalAlignment="Left" />
+            <CheckBox x:Name="SearchPath" Content="{DynamicResource wox_plugin_everything_search_path}" Margin="10" HorizontalAlignment="Left" />
         </StackPanel>
     </Border>
 </UserControl>

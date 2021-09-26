@@ -12,6 +12,9 @@ namespace Wox.Plugin.Everything
         public int MaxSearchCount { get; set; } = 100;
 
         public bool UseLocationAsWorkingDir { get; set; } = false;
+        public bool SearchMatchCase { get; set; } = false;
+        public bool SearchWholeWord { get; set; } = false;
+        public bool SearchPath { get; set; } = true;
     }
 
     public class ContextMenu

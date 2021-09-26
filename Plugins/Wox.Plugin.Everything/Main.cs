@@ -42,6 +42,10 @@ namespace Wox.Plugin.Everything
 
                 try
                 {
+                    _api.MatchCase = _settings.SearchMatchCase;
+                    _api.MatchWholeWord = _settings.SearchWholeWord;
+                    _api.MatchPath = _settings.SearchPath;
+
                     var searchList = _api.Search(keyword, maxCount: _settings.MaxSearchCount).ToList();
                     foreach (var s in searchList)
                     {

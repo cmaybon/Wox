@@ -13,4 +13,8 @@
 
     <system:String x:Key="wox_plugin_everything_use_location_as_working_dir">Use search result's location as executable working directory</system:String>
 
+    <system:String x:Key="wox_plugin_everything_search_match_case">Search match case</system:String>
+    <system:String x:Key="wox_plugin_everything_search_whole_word">Search match word</system:String>
+    <system:String x:Key="wox_plugin_everything_search_path">Search path</system:String>
+
 </ResourceDictionary>
